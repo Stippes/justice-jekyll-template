@@ -4,8 +4,12 @@
       link: /
     - name: About
       link: /about/
-    - name: Services
-      link: /services/
+    - name: What Is AI Manipulation?
+      link: /manipulation/
+    - name: Toolkit
+      link: /tools/
+    - name: Test Your Chatbot
+      link: /test/
     - name: Contact
       link: /contact/
     - name: Blog

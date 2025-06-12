@@ -1,8 +1,8 @@
 ---
 name: John Doe
 image: "//placebear.com/440/440?a=.png"
-credentials: LLB
+credentials: MSc Computer Science
 phone_extension: "11"
 ---
 
-With an interest in employment law, John works tirelessly to improve workplaces.
+John develops the analysis pipeline for detecting manipulative chatbot behavior.
