@@ -15,7 +15,8 @@ body {
 body,
 input,
 textarea {
-	font-family: 'Vollkorn', Georgia, serif;
+	// font-family: 'Vollkorn', Georgia, serif;
+	font-family: 'Inter', sans-serif;
 	color: #3A4145;
 	text-rendering: geometricPrecision;
 }
@@ -27,7 +28,8 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Quattrocento', Georgia, serif;
+	// font-family: 'Quattrocento', Georgia, serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 400;
 	text-transform: uppercase;
 }

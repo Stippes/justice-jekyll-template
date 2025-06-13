@@ -1,7 +1,7 @@
 ---
-title: Alethia AI – See Through the Algorithms
+title: See Through the Algorithms
 call_to_action: Learn
-background_image_path:
+background_image_path: uploads/DeepMind_Cube.jpg
 large_header: true
 testimonials:
   - message: Alethia helped me understand how persuasive my AI companion had become. I now feel more grounded.
@@ -22,25 +22,27 @@ _options:
 <div class="editable">
   <p><strong>Alethia</strong> uncovers how AI systems shape your choices and emotions.</p>
   <p>We blend behavioral science and technical analysis to help you take control of your digital life.</p>
-  <p>Our goal is not to demonize AI but to shed light on manipulative design practices that erode autonomy.</p>
+  <p>Our goal is not to demonize AI but to shed light on manipulative design practices that erode autonomy and bypass consent.</p>
 
   <h3>Mission Highlights</h3>
   <ul>
-    <li>Educate citizens about psychological vulnerabilities exploited by modern platforms.</li>
-    <li>Analyze and expose manipulative design via research and technical testing.</li>
-    <li>Support policymakers with plain language explainers.</li>
-    <li>Provide tools for testing chatbots and detecting hidden persuasive tactics.</li>
+    <li>Educate citizens about psychological vulnerabilities exploited by digital platforms and AI.</li>
+    <li>Analyze and expose manipulative design via empirical research and LLM-based testing.</li>
+    <li>Support policymakers with plain-language explainers and edge-case analysis.</li>
+    <li>Provide hands-on tools for chatbot testing and digital self-protection.</li>
   </ul>
+
   <div class="cta-buttons">
     <a class="btn" href="/manipulation/">Learn</a>
     <a class="btn" href="/tools/">Protect Yourself</a>
     <a class="btn" href="/test/">Test a Chatbot</a>
   </div>
+
   <h2>How AI Shapes Your Online Experience</h2>
   <ul>
-    <li>TikTok feeds exploit reinforcement loops</li>
-    <li>Chatbots simulate intimacy to sway your emotions</li>
-    <li>Recommendation engines nudge you toward endless scrolling</li>
+    <li><strong>Reinforcement loops</strong>: Platforms like TikTok learn to exploit your attention patterns.</li>
+    <li><strong>Emotional manipulation</strong>: Chatbots simulate empathy to build dependency.</li>
+    <li><strong>UX dark patterns</strong>: Design choices push you into accepting cookies, clicking ads, or making unplanned purchases.</li>
   </ul>
 </div>
 
@@ -48,7 +50,9 @@ _options:
   {% for testimonial in page.testimonials %}
     <blockquote class="testimonial">
       <p class="testimonial-message">{{ testimonial.message }}</p>
-      <p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
+      <p class="testimonial-author">
+        <img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}
+      </p>
     </blockquote>
   {% endfor %}
 </div>

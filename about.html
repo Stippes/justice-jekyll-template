@@ -1,58 +1,84 @@
 ---
 title: About
 call_to_action: Contact
-background_image_path:
+background_image_path: /uploads/DeepMind_Cube.jpg
 large_header: false
 show_in_navigation: true
 navigation_order: 1
 ---
 
 <div class="editable">
-  <p><strong>Alethia</strong> is an open initiative exposing how algorithms subtly steer us.</p>
-  <h2>Our Mission</h2>
-  <p>To empower citizens with tools and insights to resist hidden AI influence.</p>
-  <h2>Our Approach</h2>
-  <p>Blending behavioral science, AI testing, and public education.</p>
-  <h2>Why "Alethia"?</h2>
-  <p>Greek for “truth” or “disclosure.”</p>
-  <h2>Research Principles</h2>
-  <ul>
-    <li>Evidence-based: grounded in psychology and behavioral economics.</li>
-    <li>Transparent: open source frameworks and documented criteria.</li>
-    <li>Ethically grounded: empowering users without fearmongering.</li>
-    <li>Regulation-aware: aligned with the EU AI Act and related policy.</li>
-  </ul>
+    <div class="page-header">
+      <!-- <h2>About Alethia AI</h2> -->
+    </div>
 
-  <h2>What Makes Alethia Unique</h2>
-  <ul>
-    <li>Combines technical AI testing with behavioral science analysis.</li>
-    <li>Shows how interfaces shape choices, not just content.</li>
-    <li>Open about limitations so users can make informed decisions.</li>
-    <li>Bridges grassroots education and AI governance compliance.</li>
-  </ul>
+    <article class="content">
+      <div class="editable">
+        <p><strong>Every day, millions of people interact with AI systems that nudge, shape, and sometimes exploit human behavior.</strong> Most don’t realize it’s happening. Alethia AI is here to change that.</p>
 
-  <p>Meet the team behind the project:</p>
-</div>
+        <h2>Our Story</h2>
+        <p>Alethia began as a conversation between a behavioral scientist and a machine learning engineer — both alarmed by how AI systems were quietly shaping choices in therapy, politics, and everyday life. We saw a gap: there were tools to build persuasive AI, but none for defending against it. So we started one.</p>
 
-<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Update Staff Members</a></p>
+        <h2>What We Do</h2>
+        <ul>
+          <li><strong>🔍 Detect:</strong> We analyze chatbot logs, app flows, and design patterns for signs of manipulative influence.</li>
+          <li><strong>🧠 Explain:</strong> We translate AI ethics, policy, and behavioral science into tools anyone can use.</li>
+          <li><strong>🛡️ Equip:</strong> We build and share defensive strategies for professionals, policymakers, and the public.</li>
+        </ul>
 
-<ul class="staff-list">
-	{% for member in site.staff_members %}
-		<li class="staff">
-			<div class="staff-details">
-				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120">
-				</div>
-				<ul class="staff-info">
-					<li>{{ member.name }}</li>
-					<li><small>{{ member.credentials }}</small></li>
-					<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a>  ext {{ member.phone_extension }}</li>
-				</ul>
-			</div>
+        <h2>Our Philosophy</h2>
+        <p>We love technology. But ethical AI must respect autonomy and avoid exploiting vulnerabilities. Alethia focuses on:</p>
+        <ul>
+          <li>Evidence over hype</li>
+          <li>Empowerment over fear</li>
+          <li>Open methods over closed models</li>
+          <li>Bridging policy, practice, and lived experience</li>
+        </ul>
 
-			<div class="staff-bio">
-				<p>{{ member.content | markdownify }}</p>
-			</div>
-		</li>
-	{% endfor %}
-</ul>
+        <h2>Meet the Team</h2>
+        <p>We’re researchers, developers, and designers working across disciplines to help people reclaim agency in digital life.</p>
+      </div>
+
+      <ul class="staff-list">
+        <li class="staff">
+          <div class="staff-details">
+            <div class="staff-image">
+              <img src="/images/staff1.jpg" alt="Staff photo for Marvin Kunz" width="120" height="120">
+            </div>
+            <ul class="staff-info">
+              <li>Marvin Kunz</li>
+              <li><small>Social Psychologist & Founder</small></li>
+            </ul>
+          </div>
+          <div class="staff-bio">
+            <p>Marvin’s work explores how people make decisions under subtle influence — and how AI reshapes those patterns. He started Alethia to turn insight into action.</p>
+          </div>
+        </li>
+        <li class="staff">
+          <div class="staff-details">
+            <div class="staff-image">
+              <img src="/images/staff2.jpg" alt="Staff photo for Jane Doe" width="120" height="120">
+            </div>
+            <ul class="staff-info">
+              <li>Jane Doe</li>
+              <li><small>UX Psychologist</small></li>
+            </ul>
+          </div>
+          <div class="staff-bio">
+            <p>Jane researches habit-forming design and digital well-being. She helps Alethia translate manipulation theory into practical defenses.</p>
+          </div>
+        </li>
+      </ul>
+
+    </article>
+  </div>
+</section>
+
+<!-- <section class="quote-section">
+  <p class="container editable">
+    <a href="/contact/">Contact us</a> to contribute or collaborate — we’re just getting started.
+  </p>
+</section> -->
+
+</body>
+</html>
