@@ -423,20 +423,82 @@ footer {
 	margin: 1em 0;
 }
 
-/* --- CTA Button Styling --- */
+
+
+// .cta-buttons .btn {
+//   font-size: 1.9rem;
+//   padding: 12px 25px;
+//   border-radius: 4px;
+//   text-decoration: none;
+//   margin: 10px;
+//   display: inline-block;
+//   font-weight: bold;
+//   background-color: #FADFC9;
+//   color: #000; /* Optional: ensure contrast */
+//   transition: background-color 0.3s ease;
+// }
+
+// .cta-buttons .btn:hover {
+//   background-color: darken(#FADFC9, 10%);
+// }
+
+// .cta-buttons {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 10px; /* space between buttons */
+//   justify-content: center; /* or flex-start if you prefer left alignment */
+// }
+
+// .cta-buttons .btn {
+//   font-size: 1.6rem;         /* slightly smaller */
+//   padding: 8px 16px;         /* reduced padding */
+//   border-radius: 4px;
+//   text-decoration: none;
+//   font-weight: bold;
+//   background-color: #FADFC9;
+//   color: #000;
+//   transition: background-color 0.3s ease;
+//   white-space: nowrap;       /* keeps button text on one line */
+// }
+
+.cta-buttons {
+  text-align: center;           /* Center the entire group */
+  margin-top: 40px;             /* Add free space above the buttons */
+}
+
 .cta-buttons .btn {
-  font-size: 1.9rem;
-  padding: 12px 25px;
+  font-size: 1.6rem;
+  padding: 10px 20px;
   border-radius: 4px;
   text-decoration: none;
-  margin: 10px;
-  display: inline-block;
   font-weight: bold;
   background-color: #FADFC9;
-  color: #000; /* Optional: ensure contrast */
+  color: #000;
+  display: inline-block;        /* Ensures button respects text alignment */
+  text-align: center;           /* Center text inside the button */
+  margin: 8px;                  /* Space between buttons */
   transition: background-color 0.3s ease;
 }
 
 .cta-buttons .btn:hover {
-  background-color: darken(#FADFC9, 10%);
+  background-color: #f3c7a7;
 }
+
+.manipulation-techniques {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.manipulation-techniques .technique {
+  flex: 1 1 300px;
+  min-width: 280px;
+}
+
+.manipulation-techniques .technique h4 {
+  min-height: 5.0em; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+
