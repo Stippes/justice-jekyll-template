@@ -32,13 +32,13 @@ _options:
     <li>Provide hands-on tools for chatbot testing and digital self-protection.</li>
   </ul>
 
-  <div class="cta-buttons">
-    <a class="btn" href="/manipulation/">Learn</a>
-    <a class="btn" href="/tools/">Protect Yourself</a>
-    <a class="btn" href="/test/">Test a Chatbot</a>
-  </div>
+<div class="cta-buttons">
+  <a class="btn learn-btn" href="/manipulation/">Understand AI Manipulation</a>
+  <a class="btn protect-btn" href="/tools/">Get the Digital Self-Defense Toolkit</a>
+  <a class="btn test-btn" href="/test/">Run a Chatbot Manipulation Test</a>
+</div>
 
-  <h2>How AI Shapes Your Online Experience</h2>
+<h2>How AI Shapes Your Online Experience</h2>
   <ul>
     <li><strong>Reinforcement loops</strong>: Platforms like TikTok learn to exploit your attention patterns.</li>
     <li><strong>Emotional manipulation</strong>: Chatbots simulate empathy to build dependency.</li>
@@ -46,7 +46,7 @@ _options:
   </ul>
 </div>
 
-<div class="testimonials">
+<!-- <div class="testimonials">
   {% for testimonial in page.testimonials %}
     <blockquote class="testimonial">
       <p class="testimonial-message">{{ testimonial.message }}</p>
@@ -55,11 +55,11 @@ _options:
       </p>
     </blockquote>
   {% endfor %}
-</div>
+</div> -->
 
 <h2 class="editable">Recent Posts</h2>
 <ol class="post-list">
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:1 %}
     {% include post-summary.html post=post %}
   {% endfor %}
 </ol>

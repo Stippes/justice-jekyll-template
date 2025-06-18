@@ -16,47 +16,92 @@ body {
 	border-radius: 2px;
 }
 
+// header {
+// 	background-size: cover;
+// 	background-position: center -270px !important;
+// 	// background-position-y: 350px;
+// 	background-repeat: no-repeat;
+// 	height: 480px;
+// 	// box-sizing: border-box;
+
+// 	.container {
+// 		text-align: center;
+// 	}
+
+// 	@media (min-width: $mobile-break) {
+// 		background-size: cover;
+// 		background-position: center center;
+
+// 		&.main-hero {
+// 		height: 480px;
+// 		background-position: center center;
+// 		}
+
+// 		.container {
+// 		text-align: right;
+// 		}
+// 	}
+
+// 	nav {
+// 		max-width: 100%;
+
+// 		ul {
+// 			list-style: none;
+// 			margin: 0;
+// 			padding: 0;
+
+// 			li {
+// 				display: inline-block;
+// 				margin: 0 10px;
+// 			}
+// 		}
+// 	}
+// }
+
 header {
-	background-size: cover;
-	background-position: center -270px !important;
-	// background-position-y: 350px;
-	background-repeat: no-repeat;
-	height: 480px;
-	// box-sizing: border-box;
+  background-image: url('/uploads/DeepMind_Cube.jpg');
+  background-repeat: no-repeat;
+  background-size: 120% auto; // ← zoom in horizontally
+  background-position: center top;
+  height: 220px;
 
-	.container {
-		text-align: center;
-	}
+  .container {
+    text-align: center;
+  }
 
-	@media (min-width: $mobile-break) {
-		background-size: cover;
-		background-position: center center;
+  nav {
+    max-width: 100%;
 
-		&.main-hero {
-		height: 480px;
-		background-position: center center;
-		}
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
 
-		.container {
-		text-align: right;
-		}
-	}
+      li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+    }
+  }
 
-	nav {
-		max-width: 100%;
+  @media (min-width: $mobile-break) {
+    height: 280px;
+    background-size: 100% auto; // ← even more zoomed-in on larger screens
+    background-position: center top;
 
-		ul {
-			list-style: none;
-			margin: 0;
-			padding: 0;
+    &.main-hero {
+      height: 320px;
+      background-size: 120% auto; // ← optionally zoomed in more for hero section
+    }
 
-			li {
-				display: inline-block;
-				margin: 0 10px;
-			}
-		}
-	}
+    .container {
+      text-align: right;
+    }
+  }
 }
+
+
+
 
 header,
 footer {
@@ -376,4 +421,22 @@ footer {
 .post-summary-author {
 	@extend .testimonial-author;
 	margin: 1em 0;
+}
+
+/* --- CTA Button Styling --- */
+.cta-buttons .btn {
+  font-size: 1.9rem;
+  padding: 12px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+  font-weight: bold;
+  background-color: #FADFC9;
+  color: #000; /* Optional: ensure contrast */
+  transition: background-color 0.3s ease;
+}
+
+.cta-buttons .btn:hover {
+  background-color: darken(#FADFC9, 10%);
 }

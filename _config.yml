@@ -2,7 +2,9 @@
 # Site
 
 title: Alethia AI
-url: "https://orchid-heron.cloudvent.net"
+description: Tools and research to uncover and counter AI-driven manipulation.
+
+# url: "https://orchid-heron.cloudvent.net"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
